@@ -1,12 +1,67 @@
-# React + Vite
+# myMoneyTracker (React Version)
+## Description
+myMoneyTracker is a web application for users to track their income and expenses.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a pure frontend project built with React + Vite, using localStorage for data persistence. No backend required.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+GitHub Pages: https://jinwb2019.github.io/mymoneytracker-react/
 
-## Expanding the ESLint configuration
+## Features
+1. Add New Transaction
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Input amount, type (Income or Expense), category, date, optional description
+
+Validates inputs
+
+2. Edit and Delete Transaction
+
+Update any existing transaction data
+
+Remove a transaction permanently
+
+3. Summary Statistics
+
+Total Income
+
+Total Expenses
+
+Net Balance (Income - Expenses)
+
+4. Transaction List
+
+Display transactions as a table
+
+Color-coded for income/expense
+
+5. Filter by Date
+
+Filter transactions by specific date
+
+6. Data Persistence
+
+All data stored in localStorage
+
+Automatically loads saved data on refresh
+
+7. Responsive Design
+
+Mobile-friendly layout
+
+## Installation & Usage
+
+git clone https://github.com/Jinwb2019/mymoneytracker-react.git
+cd mymoneytracker-react
+npm install
+npm run dev
+
+🛠 Tech Stack
+React
+Vite
+HTML & CSS & JavaScript
+localStorage (JSON)
+
+
+### Tips
+If you want to run locally, you’ll need Node.js and npm installed. See Node.js website for download instructions.
