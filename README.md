@@ -56,12 +56,15 @@ cd mymoneytracker-react
 npm install
 npm run dev
 
-🛠 Tech Stack
-React
-Vite
-HTML & CSS & JavaScript
-localStorage (JSON)
+## Tech Stack
 
+React
+
+Vite
+
+HTML & CSS & JavaScript
+
+localStorage (JSON)
 
 ### Tips
 If you want to run locally, you’ll need Node.js and npm installed. See Node.js website for download instructions.
